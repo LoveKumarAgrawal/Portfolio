@@ -168,6 +168,34 @@ export const projectsData = [
     link: null,
     source: "https://github.com/LoveKumarAgrawal/E-commerce-Shoe-Website",
   },
+  {
+    type: "WEB-APP",
+    title: "Blogging Website",
+    image: "Blogging",
+    link: "https://blogging-website-sigma-five.vercel.app/",
+    source: "https://github.com/LoveKumarAgrawal/Blogging-Website",
+  },
+  {
+    type: "WEB-APP",
+    title: "Calculator",
+    image: "Calculator",
+    link: "https://calculator-chi-liard.vercel.app/",
+    source: "https://github.com/LoveKumarAgrawal/Calculator",
+  },
+  {
+    type: "WEB-APP",
+    title: "Tic Tac Toe",
+    image: "tictactoe",
+    link: "https://lovekumaragrawal.github.io/Tic-Tac-Toe/",
+    source: "https://github.com/LoveKumarAgrawal/Tic-Tac-Toe",
+  },
+  {
+    type: "WEB-APP",
+    title: "Rock Paper Scissor",
+    image: "rockpaperscissor",
+    link: "https://lovekumaragrawal.github.io/Rock-Paper-Scissor/",
+    source: "https://github.com/LoveKumarAgrawal/Rock-Paper-Scissor",
+  },
 ];
 
 

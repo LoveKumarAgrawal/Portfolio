@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-website-nextjs",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "This is my personal portfolio website.",
   "main": "index.js",
@@ -20,10 +20,10 @@
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "caniuse-lite": "^1.0.30001651",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.19",
     "framer-motion": "^10.15.2",
-    "mapbox-gl": "^2.15.0",
     "next": "13.4.19",
     "next-reveal": "^1.0.6",
     "react": "18.2.0",
