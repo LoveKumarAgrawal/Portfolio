@@ -163,10 +163,24 @@ export const projectsData = [
   },
   {
     type: "WEB-APP",
-    title: "ShoeSavvy - Shoe Website",
-    image: "ShoeSavvy",
-    link: null,
-    source: "https://github.com/LoveKumarAgrawal/E-commerce-Shoe-Website",
+    title: "Giphy Gif",
+    image: "giphy",
+    link: "https://giphy-gif-library.vercel.app/",
+    source: "https://github.com/LoveKumarAgrawal/Giphy-gif-library",
+  },
+  {
+    type: "WEB-APP",
+    title: "Anonymous feedback",
+    image: "anonymous-feedback",
+    link: "https://anonymous-feedback-two.vercel.app/",
+    source: "https://github.com/LoveKumarAgrawal/anonymous-feedback",
+  },
+  {
+    type: "PROJECT",
+    title: "Titanic ChatBot",
+    image: "chat-bot",
+    link: "https://titanic-dataset-chat-ai-agent-eqgxtrivqgm4qcy7fatdvz.streamlit.app/",
+    source: "https://github.com/LoveKumarAgrawal/Titanic-Dataset-Chat-AI-Agent",
   },
   {
     type: "WEB-APP",
@@ -174,6 +188,13 @@ export const projectsData = [
     image: "Blogging",
     link: "https://blogging-website-sigma-five.vercel.app/",
     source: "https://github.com/LoveKumarAgrawal/Blogging-Website",
+  },
+  {
+    type: "WEB-APP",
+    title: "ShoeSavvy - Shoe Website",
+    image: "ShoeSavvy",
+    link: null,
+    source: "https://github.com/LoveKumarAgrawal/E-commerce-Shoe-Website",
   },
   {
     type: "WEB-APP",
