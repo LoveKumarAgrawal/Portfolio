@@ -156,6 +156,20 @@ export const skillsData = [
 export const projectsData = [
   {
     type: "WEB-APP",
+    title: "Decentralized CrowdFunding",
+    image: "crowdfunding_platform",
+    link: null,
+    source: "https://github.com/LoveKumarAgrawal/decentralized-crowdfunding-platform",
+  },
+  {
+    type: "WEB-APP",
+    title: "StorEase",
+    image: "storease",
+    link: "https://stor-ease.vercel.app/sign-in",
+    source: "https://github.com/LoveKumarAgrawal/StorEase",
+  },
+  {
+    type: "WEB-APP",
     title: "Certify Track",
     image: "Certify Track",
     link: null,
