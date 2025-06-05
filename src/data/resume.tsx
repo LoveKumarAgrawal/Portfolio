@@ -73,7 +73,7 @@ export const DATA = {
       badges: [],
       href: "https://www.whatbytes.com/",
       location: "Remote",
-      title: "Software Engineer",
+      title: "Frontend Developer Intern",
       logoUrl: "/whatbytes.png",
       start: "Apr 2025",
       end: "Present",
