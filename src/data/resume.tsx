@@ -10,11 +10,11 @@ export const DATA = {
   description:
     "Software Engineer who loves to code and build stuff.",
   summary:
-    "Hey, I’m a software engineer passionate about system architecture, web3, and advanced algorithms. Today, I’m interning as a Frontend Developer at [WhatBytes](https://www.whatbytes.com/), working with React and Next.js to create clean, responsive UIs. Before this, I interned at [Ignis Tech Solutions](https://www.linkedin.com/company/ergosphere-solutions/) as a Software Developer, where I built full-stack web apps using Django and React, developed RESTful APIs, and integrated web scrapers for real-time data automation.",
+    "Hey, I’m a software engineer passionate about system architecture, web3, and advanced algorithms. I’m currently a Software Engineer & Pod Lead at WhatBytes, where I work across the full stack—building scalable backend services with Node.js, NestJS, and Django, developing clean and performant frontends with React and Next.js, and handling deployment pipelines to ensure smooth, reliable releases. I also lead a team of developers, manage project timelines, and coordinate cross-functional teams to deliver high-quality products. Before this, I interned at Ignis Tech Solutions as a Software Developer, where I built full-stack applications, engineered RESTful APIs, and integrated Scrapy-based web scrapers for real-time data automation.",
   avatarUrl: "/me.jpg",
   skills: [
     "Next.js",
-    "Nest.js",
+    "NestJS",
     "React",
     "Typescript",
     "Node.js",
@@ -73,10 +73,22 @@ export const DATA = {
       badges: [],
       href: "https://www.whatbytes.com/",
       location: "Remote",
+      title: "Software Engineer & Pod Lead",
+      logoUrl: "/whatbytes.png",
+      start: "Nov 2025",
+      end: "Present",
+      description:
+        "Leading a team of developers to deliver scalable full-stack applications. Building backend services using Node.js, NestJS, and Django, while developing performant UIs with React and Next.js. Managing deployments, code reviews, and project timelines, and collaborating with cross-functional teams to ensure seamless integration and high-quality deliverables.",
+    },
+    {
+      company: "WhatBytes",
+      badges: [],
+      href: "https://www.whatbytes.com/",
+      location: "Remote",
       title: "Frontend Developer Intern",
       logoUrl: "/whatbytes.png",
       start: "Apr 2025",
-      end: "Present",
+      end: "Oct 2025",
       description:
         "Contributing to the development of scalable, responsive web interfaces using Next.js and React.js for client-facing applications. Collaborating with backend and design teams to integrate APIs and ensure UI/UX consistency across multiple pages. Actively involved in code reviews, feature planning, and maintaining code quality through reusable component architecture.",
     },
@@ -140,7 +152,7 @@ export const DATA = {
         "Designed a role-based system to streamline certificate handling among students, teachers, and administrators. Empowered students to manage their certificate uploads while enabling teachers to approve or reject submissions with administrative oversight for user management using role-based access. Delivered a seamless user experience with a clean, responsive interface. ",
       technologies: [
         "Next.js",
-        "Nest.js",
+        "NestJS",
         "Typescript",
         "MongoDB",
         "Material UI",
