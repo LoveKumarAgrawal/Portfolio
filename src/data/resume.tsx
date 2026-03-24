@@ -119,6 +119,7 @@ export const DATA = {
     {
       title: "AlgoArena",
       href: "https://github.com/LoveKumarAgrawal/AlgoArena",
+      dates: "",
       active: true,
       description:
         "Engineered a full-stack competitive programming platform inspired by Codeforces, featuring real-time code execution, live leaderboards, and timed contests. Built with a scalable microservices architecture in a Turborepo monorepo, enabling efficient builds and shared packages. Developed a secure code execution engine using Judge0 and Docker with strict sandboxing and resource isolation. Implemented an asynchronous judging pipeline with webhooks to handle high-concurrency submissions with deterministic scoring. Delivered a type-safe developer experience using Next.js, Prisma, and Zod, alongside a modern UI with Monaco Editor integration.",
