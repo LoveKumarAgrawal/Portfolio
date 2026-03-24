@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer who loves to code and build stuff.",
   summary:
-    "Hey, I’m a software engineer passionate about system architecture, web3, and advanced algorithms. I’m currently a Software Engineer & Pod Lead at WhatBytes, where I work across the full stack—building scalable backend services with Node.js, NestJS, and Django, developing clean and performant frontends with React and Next.js, and handling deployment pipelines to ensure smooth, reliable releases. I also lead a team of developers, manage project timelines, and coordinate cross-functional teams to deliver high-quality products. Before this, I interned at Ignis Tech Solutions as a Software Developer, where I built full-stack applications, engineered RESTful APIs, and integrated Scrapy-based web scrapers for real-time data automation.",
+    "Hey, I’m a software engineer passionate about system architecture, web3, and advanced algorithms. I’m currently a Software Engineer & Pod Lead at WhatBytes, where I work across the full stack building scalable backend services with Node.js, NestJS, and Django, developing clean and performant frontends with React and Next.js, and handling deployment pipelines to ensure smooth, reliable releases. I also lead a team of developers, manage project timelines, and coordinate cross-functional teams to deliver high-quality products. Before this, I interned at Ignis Tech Solutions as a Software Developer, where I built full-stack applications, engineered RESTful APIs, and integrated Scrapy-based web scrapers for real-time data automation.",
   avatarUrl: "/me.jpg",
   skills: [
     "Next.js",
@@ -73,12 +73,12 @@ export const DATA = {
       badges: [],
       href: "https://www.whatbytes.com/",
       location: "Remote",
-      title: "Software Engineer & Pod Lead",
+      title: "Software Engineer",
       logoUrl: "/whatbytes.png",
       start: "Nov 2025",
       end: "Present",
       description:
-        "Leading a team of developers to deliver scalable full-stack applications. Building backend services using Node.js, NestJS, and Django, while developing performant UIs with React and Next.js. Managing deployments, code reviews, and project timelines, and collaborating with cross-functional teams to ensure seamless integration and high-quality deliverables.",
+        "Contributed in NestJS backend services for multi-module LMS, handling workflows, background jobs, and user operations. Improved ticker/position extraction logic in portfolio documents to enhance data accuracy. Worked closely with the team at Raven (YC S22) to ship backend features and APIs supporting their product requirements. Architected an AI-powered RAG (Retrieval-Augmented Generation) application using FastAPI and PostgreSQL, improving data retrieval accuracy and processing speed by 30%",
     },
     {
       company: "WhatBytes",
@@ -117,6 +117,39 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "AlgoArena",
+      href: "https://github.com/LoveKumarAgrawal/AlgoArena",
+      active: true,
+      description:
+        "Engineered a full-stack competitive programming platform inspired by Codeforces, featuring real-time code execution, live leaderboards, and timed contests. Built with a scalable microservices architecture in a Turborepo monorepo, enabling efficient builds and shared packages. Developed a secure code execution engine using Judge0 and Docker with strict sandboxing and resource isolation. Implemented an asynchronous judging pipeline with webhooks to handle high-concurrency submissions with deterministic scoring. Delivered a type-safe developer experience using Next.js, Prisma, and Zod, alongside a modern UI with Monaco Editor integration.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Turborepo",
+        "Node.js",
+        "Express.js",
+        "Prisma",
+        "PostgreSQL",
+        "Zod",
+        "Docker",
+        "Judge0"
+      ],
+      links: [
+        {
+          type: "Demo",
+          href: "https://drive.google.com/file/d/1Rkao8p1k1RCNJ7gPqmQ9M2diwcEOMSn2/view?usp=drive_link",
+          icon: <Icons.youtube className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/LoveKumarAgrawal/AlgoArena",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/AlgoArena.png",
+      video: "",
+    },
+    {
       title: "Decentralized CrowdFunding Platform",
       href: "https://github.com/LoveKumarAgrawal/decentralized-crowdfunding-platform",
       dates: "Jan 2025 - March 2025",
@@ -135,9 +168,9 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Source",
+          type: "Github",
           href: "https://github.com/LoveKumarAgrawal/decentralized-crowdfunding-platform",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/crowdfunding_platform.png",
@@ -159,12 +192,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Source",
+          type: "Source (frontend)",
           href: "https://github.com/LoveKumarAgrawal/Certify-Track-Frontend",
           icon: <Icons.github className="size-3" />,
         },
         {
-          type: "Source",
+          type: "Source (backend)",
           href: "https://github.com/LoveKumarAgrawal/Certify-Track-Backend",
           icon: <Icons.github className="size-3" />,
         },
