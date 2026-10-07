@@ -26,7 +26,12 @@ export const DATA = {
     "Kubernetes",
     "Java",
     "C",
-    "Rust"
+    "Rust",
+    "FastAPI",
+    "Go",
+    "GCP",
+    "AWS",
+    "Terraform"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -78,7 +83,7 @@ export const DATA = {
       start: "Nov 2025",
       end: "Present",
       description:
-        "Contributed in NestJS backend services for multi-module LMS, handling workflows, background jobs, and user operations. Improved ticker/position extraction logic in portfolio documents to enhance data accuracy. Worked closely with the team at Raven (YC S22) to ship backend features and APIs supporting their product requirements. Architected an AI-powered RAG (Retrieval-Augmented Generation) application using FastAPI and PostgreSQL, improving data retrieval accuracy and processing speed by 30%",
+        "Scaled backend infrastructure for a 10K+ user LMS by architecting NestJS microservices and asynchronous job queues for reliable, high-throughput background processing. Led the migration of YC-backed Raven (S22) production APIs from Go to FastAPI, improving maintainability and developer velocity while maintaining zero-downtime service continuity. Reduced PDF extraction latency by 70% (7.5 min → <2 min) by redesigning the pipeline from PDF → Markdown → LLM, improving ticker and position extraction for financial workflows. Built an AI agent with autonomous intent routing that executes frontend actions from natural-language commands, reducing manual navigation across core workflows. Built a legal-domain RAG system using scraped government articles, news, and PDFs, with document chunking, embeddings, and vector search for retrieval-augmented Q&A. Migrated a 1M+ sessions/day production platform from AWS to GCP using Terraform; diagnosed PostgreSQL performance issues with pg_stat_statements and shipped Klaviyo-based identity resolution for 60+ enterprise merchants. Built an asynchronous image-processing backend for Inpixr using AWS SQS and S3, automating multi-resolution conversion and watermarking, and developed the Stripe payment backend for subscriptions and pay-per-download purchases.",
     },
     {
       company: "WhatBytes",
@@ -87,10 +92,10 @@ export const DATA = {
       location: "Remote",
       title: "Frontend Developer Intern",
       logoUrl: "/whatbytes.png",
-      start: "Apr 2025",
+      start: "May 2025",
       end: "Oct 2025",
       description:
-        "Contributing to the development of scalable, responsive web interfaces using Next.js and React.js for client-facing applications. Collaborating with backend and design teams to integrate APIs and ensure UI/UX consistency across multiple pages. Actively involved in code reviews, feature planning, and maintaining code quality through reusable component architecture.",
+        "Improved page-load performance by 50% by refactoring state management in a financial analytics dashboard and eliminating unnecessary component re-renders. Improved reliability of Inpixr’s stock-image gallery across breakpoints by resolving image-loading failures and masonry grid layout instability. Optimized the Shatterpoint Next.js frontend by improving component rendering and data-fetching patterns, resulting in a faster and more responsive financial analytics experience.",
     },
     {
       company: "Ergosphere Solutions",
@@ -102,7 +107,7 @@ export const DATA = {
       start: "Sep 2024",
       end: "Feb 2025",
       description:
-        "Developed and deployed full-stack web applications using Python (Django) with seamless frontend integration via React.js improving UI responsiveness and overall functionality. Engineered scalable RESTful APIs using Django REST Framework (DRF), and integrated them with a Scrapy based web scraping system to automate real-time product data extraction and processing.",
+        "Increased backend throughput by 40% by designing and shipping 15+ production REST APIs with Node.js and Django, including authentication and centralized error handling. Built an internal LLM-powered RAG search system using vector databases and OpenAI APIs for semantic search across engineering knowledge bases.",
     }
   ],
   education: [
